@@ -10,10 +10,7 @@ extension Array where Element == Int {
             
             for index in 1..<newArray.count {
                 if newArray[index] < newArray[index - 1] {
-                    let tempValue = newArray[index]
-                    newArray[index] = newArray[index - 1]
-                    newArray[index - 1] = tempValue
-                    
+                    newArray.swapAt(index, index - 1)
                     sorted = false
                 }
             }

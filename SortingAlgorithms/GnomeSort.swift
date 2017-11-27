@@ -1,9 +1,23 @@
-//
-//  GnomeSort.swift
-//  SortingAlgorithms
-//
-//  Created by Yevgeniy on 27/11/17.
-//  Copyright © 2017 YZ. All rights reserved.
-//
-
 import Foundation
+
+extension Array where Element == Int {
+    func gnomeSort() -> [Element] {
+        var newArray = self
+        var index = 1
+        
+        while index < newArray.count {
+            if newArray[index] >= newArray[index - 1] {
+                index += 1
+            }
+            else {
+                newArray.swapAt(index, index - 1)
+                
+                if index > 1 {
+                    index -= 1
+                }
+            }
+        }
+        
+        return newArray
+    }
+}

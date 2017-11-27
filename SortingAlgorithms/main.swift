@@ -8,3 +8,6 @@ print("Random array:\n\(randomArray)")
 
 let bubbleSortedArray = randomArray.bubbleSort()
 print("Bubble sort:\n\(bubbleSortedArray)")
+
+let gnomeSortedArray = randomArray.gnomeSort()
+print("Gnome sort:\n\(gnomeSortedArray)")
