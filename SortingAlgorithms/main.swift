@@ -14,3 +14,6 @@ print("Gnome sort:\n\(gnomeSortedArray)")
 
 let selectionSortedArray = randomArray.selectionSort()
 print("Selection sort:\n\(selectionSortedArray)")
+
+let recursiveBubbleSortedArray = randomArray.recursiveBubbleSort()
+print("Recursive bubble sort:\n\(recursiveBubbleSortedArray)")

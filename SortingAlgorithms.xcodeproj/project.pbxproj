@@ -11,6 +11,7 @@
 		578D6E761FCC142300986035 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578D6E751FCC142300986035 /* BubbleSort.swift */; };
 		578D6E781FCC2CED00986035 /* GnomeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578D6E771FCC2CED00986035 /* GnomeSort.swift */; };
 		578D6E7C1FCC71AB00986035 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578D6E7B1FCC71AB00986035 /* SelectionSort.swift */; };
+		578D6E7E1FCD902900986035 /* RecursiveBubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578D6E7D1FCD902900986035 /* RecursiveBubbleSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		578D6E751FCC142300986035 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		578D6E771FCC2CED00986035 /* GnomeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeSort.swift; sourceTree = "<group>"; };
 		578D6E7B1FCC71AB00986035 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		578D6E7D1FCD902900986035 /* RecursiveBubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveBubbleSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				578D6E751FCC142300986035 /* BubbleSort.swift */,
 				578D6E771FCC2CED00986035 /* GnomeSort.swift */,
 				578D6E7B1FCC71AB00986035 /* SelectionSort.swift */,
+				578D6E7D1FCD902900986035 /* RecursiveBubbleSort.swift */,
 			);
 			path = SortingAlgorithms;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 				578D6E7C1FCC71AB00986035 /* SelectionSort.swift in Sources */,
 				578D6E6F1FCC0E9500986035 /* main.swift in Sources */,
 				578D6E761FCC142300986035 /* BubbleSort.swift in Sources */,
+				578D6E7E1FCD902900986035 /* RecursiveBubbleSort.swift in Sources */,
 				578D6E781FCC2CED00986035 /* GnomeSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
