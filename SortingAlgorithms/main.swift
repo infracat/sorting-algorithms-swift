@@ -17,3 +17,6 @@ print("Selection sort:\n\(selectionSortedArray)")
 
 let recursiveBubbleSortedArray = randomArray.recursiveBubbleSort()
 print("Recursive bubble sort:\n\(recursiveBubbleSortedArray)")
+
+let brickSortedArray = randomArray.brickSort()
+print("Brick sort:\n\(brickSortedArray)")
