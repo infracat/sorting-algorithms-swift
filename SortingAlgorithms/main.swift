@@ -11,3 +11,6 @@ print("Bubble sort:\n\(bubbleSortedArray)")
 
 let gnomeSortedArray = randomArray.gnomeSort()
 print("Gnome sort:\n\(gnomeSortedArray)")
+
+let selectionSortedArray = randomArray.selectionSort()
+print("Selection sort:\n\(selectionSortedArray)")
